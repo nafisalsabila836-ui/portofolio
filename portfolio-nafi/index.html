@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nafi Salsabila Putri | Portfolio</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+tailwind.config={theme:{extend:{colors:{pinksoft:'#F8DDE8',pinkdark:'#C987A5',yellowsoft:'#FCEEBB',cream:'#FFFDF9',dark:'#51454B'},fontFamily:{sans:['DM Sans','sans-serif'],serif:['Playfair Display','serif']}}}}
+</script>
+<style>
+html{scroll-behavior:smooth} body{background:#FFFDF9}
+.hero-bg{background:radial-gradient(circle at 85% 15%,#FCEEBB 0,transparent 27%),radial-gradient(circle at 10% 85%,#F8DDE8 0,transparent 35%),#FFFDF9}
+.section-title{font-family:'Playfair Display',serif}
+.card{transition:all .3s ease}.card:hover{transform:translateY(-5px);box-shadow:0 15px 35px rgba(120,80,95,.09)}
+</style>
+</head>
+<body class="font-sans text-dark">
+<nav class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-lg border-b border-pinksoft">
+<div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+<a href="#home" class="font-serif text-xl font-bold">nafi<span class="text-pinkdark">.</span></a>
+<div class="hidden md:flex gap-7 text-sm font-medium">
+<a href="#home" class="hover:text-pinkdark">Home</a><a href="#about" class="hover:text-pinkdark">About</a><a href="#education" class="hover:text-pinkdark">Education</a><a href="#experience" class="hover:text-pinkdark">Experience</a><a href="#skills" class="hover:text-pinkdark">Skills</a><a href="#contact" class="hover:text-pinkdark">Contact</a>
+</div>
+<button id="menuBtn" class="md:hidden" aria-label="Buka menu"><i data-lucide="menu"></i></button>
+</div>
+<div id="mobileMenu" class="hidden md:hidden px-6 pb-5 space-y-3 bg-white">
+<a href="#home" class="block">Home</a><a href="#about" class="block">About</a><a href="#education" class="block">Education</a><a href="#experience" class="block">Experience</a><a href="#skills" class="block">Skills</a><a href="#contact" class="block">Contact</a>
+</div></nav>
+
+<section id="home" class="hero-bg min-h-screen flex items-center pt-24">
+<div class="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12 items-center">
+<div>
+<span class="inline-block bg-pinksoft px-5 py-2 rounded-full text-sm text-pinkdark font-semibold mb-7">✿ Welcome to My Portfolio</span>
+<p class="text-sm tracking-[3px] uppercase text-gray-500 mb-4">Hello, I'm</p>
+<h1 class="font-serif text-5xl md:text-7xl leading-tight font-semibold">Nafi Salsabila <span class="text-pinkdark">Putri.</span></h1>
+<h2 class="text-lg md:text-xl mt-5 font-medium">Bachelor of Nursing | Professional Nurse</h2>
+<p class="text-gray-500 mt-6 leading-8 max-w-lg">“A journey of Knowledge, Care &amp; Impact”</p>
+<p class="text-gray-500 mt-3 leading-7 max-w-lg text-sm">A passionate nursing graduate committed to continuous learning, professional growth, and making a meaningful impact through knowledge, compassion, and dedication.</p>
+<div class="flex flex-wrap gap-4 mt-9"><a href="#about" class="bg-pinkdark text-white px-7 py-3 rounded-full hover:bg-dark transition">Explore Portfolio →</a><a href="#contact" class="border border-pinkdark text-pinkdark px-7 py-3 rounded-full hover:bg-pinksoft transition">Contact Me</a></div>
+<div class="flex gap-5 mt-10 text-gray-400"><a href="mailto:nafisalsabila88@gmail.com"><i data-lucide="mail"></i></a><a href="https://instagram.com/nafi_salsaa" target="_blank"><i data-lucide="instagram"></i></a></div>
+</div>
+<div class="flex justify-center"><div class="relative w-72 h-80 md:w-96 md:h-[430px]">
+<div class="absolute inset-0 bg-yellowsoft rounded-[48%_48%_20%_20%] rotate-6"></div><div class="absolute inset-0 bg-pinksoft rounded-[48%_48%_20%_20%] -rotate-3"></div>
+<div class="relative w-full h-full rounded-[48%_48%_20%_20%] overflow-hidden border-8 border-white shadow-xl"><img src="foto-nafi.jpg" alt="Foto Nafi Salsabila Putri" class="w-full h-full object-cover"></div>
+<div class="absolute -bottom-5 -left-8 bg-white shadow-lg rounded-2xl p-4"><p class="text-xs text-gray-400">Education</p><p class="font-semibold text-sm">Ners Graduate ✿</p></div><div class="absolute -top-5 -right-5 bg-yellowsoft rounded-full p-5 text-2xl">✿</div>
+</div></div></div></section>
+
+<section id="about" class="py-24 px-6"><div class="max-w-5xl mx-auto">
+<div class="text-center mb-14"><p class="text-pinkdark text-sm tracking-widest uppercase">Get to know me</p><h2 class="section-title text-4xl mt-3">About Me</h2><div class="w-16 h-1 bg-yellowsoft mx-auto mt-5 rounded-full"></div></div>
+<div class="grid md:grid-cols-2 gap-12 items-center">
+<div class="bg-pinksoft/50 rounded-3xl p-8 md:p-10"><span class="text-4xl">♡</span><h3 class="font-serif text-2xl mt-5 mb-4">Who Am I?</h3><p class="text-gray-600 leading-8 text-sm">Saya merupakan lulusan Profesi Ners Universitas Muhammadiyah Yogyakarta yang memiliki kompetensi dalam memberikan asuhan keperawatan secara holistik sesuai standar profesi dan prosedur yang berlaku. Memiliki pengalaman praktik klinik di berbagai ruang perawatan rumah sakit dengan fokus pada keselamatan pasien, ketelitian tindakan, dan komunikasi terapeutik.</p></div>
+<div><h3 class="font-serif text-2xl mb-5">A Little About Me</h3><div class="space-y-5 text-sm">
+<div class="flex gap-4 items-center"><div class="bg-yellowsoft p-3 rounded-xl"><i data-lucide="graduation-cap"></i></div><div><p class="text-gray-400">Education</p><p class="font-semibold">Universitas Muhammadiyah Yogyakarta</p></div></div>
+<div class="flex gap-4 items-center"><div class="bg-pinksoft p-3 rounded-xl"><i data-lucide="heart-pulse"></i></div><div><p class="text-gray-400">Professional Background</p><p class="font-semibold">Bachelor of Nursing &amp; Professional Nurse</p></div></div>
+<div class="flex gap-4 items-center"><div class="bg-yellowsoft p-3 rounded-xl"><i data-lucide="map-pin"></i></div><div><p class="text-gray-400">Location</p><p class="font-semibold">Bantul, Yogyakarta</p></div></div>
+<div class="flex gap-4 items-center"><div class="bg-pinksoft p-3 rounded-xl"><i data-lucide="sparkles"></i></div><div><p class="text-gray-400">Personal Interest</p><p class="font-semibold">Learning, Healthcare &amp; Personal Growth</p></div></div>
+</div></div></div></div></section>
+
+<section id="education" class="py-24 px-6 bg-pinksoft/30"><div class="max-w-5xl mx-auto"><div class="text-center mb-14"><p class="text-pinkdark text-sm tracking-widest uppercase">My academic journey</p><h2 class="section-title text-4xl mt-3">Education</h2></div><div class="max-w-3xl mx-auto space-y-5">
+<div class="card bg-white p-7 rounded-2xl border border-pinksoft"><div class="flex justify-between flex-wrap gap-3"><h3 class="font-semibold text-lg">Profesi Ners</h3><span class="bg-yellowsoft px-4 py-1 rounded-full text-xs">2025 – 2026</span></div><p class="text-pinkdark mt-2">Universitas Muhammadiyah Yogyakarta</p><p class="text-gray-400 text-sm mt-2">Pendidikan Profesi Keperawatan</p></div>
+<div class="card bg-white p-7 rounded-2xl border border-pinksoft"><div class="flex justify-between flex-wrap gap-3"><h3 class="font-semibold text-lg">S1 Ilmu Keperawatan</h3><span class="bg-yellowsoft px-4 py-1 rounded-full text-xs">2021 – 2025</span></div><p class="text-pinkdark mt-2">Universitas Muhammadiyah Yogyakarta</p><p class="text-gray-400 text-sm mt-2">Program Studi Ilmu Keperawatan</p></div>
+<div class="card bg-white p-7 rounded-2xl border border-pinksoft"><div class="flex justify-between flex-wrap gap-3"><h3 class="font-semibold text-lg">SMA</h3><span class="bg-yellowsoft px-4 py-1 rounded-full text-xs">2018 – 2021</span></div><p class="text-pinkdark mt-2">SMA Muhammadiyah 2 Yogyakarta</p></div>
+</div></div></section>
+
+<section id="experience" class="py-24 px-6"><div class="max-w-6xl mx-auto"><div class="text-center mb-14"><p class="text-pinkdark text-sm tracking-widest uppercase">My professional journey</p><h2 class="section-title text-4xl mt-3">Clinical Experience</h2><p class="text-gray-400 text-sm mt-4">Learning, growing, and gaining experience through clinical practice.</p></div><div class="grid md:grid-cols-2 gap-6">
+<div class="card bg-white p-7 rounded-3xl border border-pinksoft/70"><span class="bg-pinksoft text-pinkdark text-xs px-4 py-2 rounded-full">2022</span><h3 class="font-semibold text-lg mt-5">RS PKU Muhammadiyah Nanggulan</h3><p class="text-sm text-gray-400 mt-1">Mahasiswa S1 Keperawatan</p><p class="text-pinkdark text-sm mt-3">Stase Keperawatan Dasar</p></div>
+<div class="card bg-white p-7 rounded-3xl border border-pinksoft/70"><span class="bg-yellowsoft text-dark text-xs px-4 py-2 rounded-full">2023</span><h3 class="font-semibold text-lg mt-5">RS PKU Muhammadiyah Yogyakarta</h3><p class="text-sm text-gray-400 mt-1">Mahasiswa S1 Keperawatan</p><p class="text-pinkdark text-sm mt-3">Stase Keperawatan Anak dan Maternitas</p></div>
+<div class="card bg-white p-7 rounded-3xl border border-pinksoft/70"><span class="bg-pinksoft text-pinkdark text-xs px-4 py-2 rounded-full">2023</span><h3 class="font-semibold text-lg mt-5">RSJ Soerojo Magelang</h3><p class="text-sm text-gray-400 mt-1">Mahasiswa S1 Keperawatan</p><p class="text-pinkdark text-sm mt-3">Stase Keperawatan Jiwa</p></div>
+<div class="card bg-white p-7 rounded-3xl border border-pinksoft/70"><span class="bg-yellowsoft text-dark text-xs px-4 py-2 rounded-full">2024</span><h3 class="font-semibold text-lg mt-5">RS PKU Muhammadiyah Temanggung</h3><p class="text-sm text-gray-400 mt-1">Mahasiswa S1 Keperawatan</p><p class="text-pinkdark text-sm mt-3">Stase Keperawatan Medikal Bedah</p></div>
+<div class="card bg-white p-7 rounded-3xl border border-pinksoft/70"><span class="bg-pinksoft text-pinkdark text-xs px-4 py-2 rounded-full">2025 – 2026</span><h3 class="font-semibold text-lg mt-5">RS PKU Muhammadiyah Bantul</h3><p class="text-sm text-gray-400 mt-1">Mahasiswa Profesi Ners</p><p class="text-pinkdark text-sm mt-3">Keperawatan Dasar, Manajemen, Anak, Maternitas, Medikal Bedah, Gawat Darurat Kritis, dan Elektif.</p></div>
+<div class="card bg-white p-7 rounded-3xl border border-pinksoft/70"><span class="bg-yellowsoft text-dark text-xs px-4 py-2 rounded-full">2025</span><h3 class="font-semibold text-lg mt-5">RSUD Panembahan Senopati</h3><p class="text-sm text-gray-400 mt-1">Mahasiswa Profesi Ners</p><p class="text-pinkdark text-sm mt-3">Stase Keperawatan Maternitas</p></div>
+<div class="card bg-white p-7 rounded-3xl border border-pinksoft/70"><span class="bg-pinksoft text-pinkdark text-xs px-4 py-2 rounded-full">2026</span><h3 class="font-semibold text-lg mt-5">Puskesmas Jetis Kota Yogyakarta</h3><p class="text-sm text-gray-400 mt-1">Mahasiswa Profesi Ners</p><p class="text-pinkdark text-sm mt-3">Stase Keperawatan Komunitas, Keluarga, dan Gerontik.</p></div>
+<div class="card bg-white p-7 rounded-3xl border border-pinksoft/70"><span class="bg-yellowsoft text-dark text-xs px-4 py-2 rounded-full">2026</span><h3 class="font-semibold text-lg mt-5">RSJ Grhasia</h3><p class="text-sm text-gray-400 mt-1">Mahasiswa Profesi Ners</p><p class="text-pinkdark text-sm mt-3">Stase Keperawatan Jiwa</p></div>
+</div></div></section>
+
+<section id="skills" class="py-24 px-6 bg-yellowsoft/30"><div class="max-w-5xl mx-auto"><div class="text-center mb-14"><p class="text-pinkdark text-sm tracking-widest uppercase">What I can do</p><h2 class="section-title text-4xl mt-3">Skills &amp; Expertise</h2></div><div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+<div class="card bg-white p-6 rounded-2xl text-center"><i data-lucide="heart-pulse" class="mx-auto text-pinkdark w-8 h-8"></i><h3 class="font-semibold text-sm mt-4">Nursing Care</h3><p class="text-xs text-gray-400 mt-2">Asuhan keperawatan komprehensif</p></div>
+<div class="card bg-white p-6 rounded-2xl text-center"><i data-lucide="activity" class="mx-auto text-pinkdark w-8 h-8"></i><h3 class="font-semibold text-sm mt-4">Basic Life Support</h3><p class="text-xs text-gray-400 mt-2">Bantuan Hidup Dasar</p></div>
+<div class="card bg-white p-6 rounded-2xl text-center"><i data-lucide="users" class="mx-auto text-pinkdark w-8 h-8"></i><h3 class="font-semibold text-sm mt-4">Communication</h3><p class="text-xs text-gray-400 mt-2">Komunikasi dan kolaborasi tim</p></div>
+<div class="card bg-white p-6 rounded-2xl text-center"><i data-lucide="book-open" class="mx-auto text-pinkdark w-8 h-8"></i><h3 class="font-semibold text-sm mt-4">Health Promotion</h3><p class="text-xs text-gray-400 mt-2">Promosi kesehatan</p></div>
+<div class="card bg-white p-6 rounded-2xl text-center"><i data-lucide="monitor" class="mx-auto text-pinkdark w-8 h-8"></i><h3 class="font-semibold text-sm mt-4">Microsoft Office</h3><p class="text-xs text-gray-400 mt-2">Pengoperasian Ms. Office</p></div>
+<div class="card bg-white p-6 rounded-2xl text-center"><i data-lucide="clipboard-check" class="mx-auto text-pinkdark w-8 h-8"></i><h3 class="font-semibold text-sm mt-4">Documentation</h3><p class="text-xs text-gray-400 mt-2">Dokumentasi keperawatan</p></div>
+<div class="card bg-white p-6 rounded-2xl text-center"><i data-lucide="lightbulb" class="mx-auto text-pinkdark w-8 h-8"></i><h3 class="font-semibold text-sm mt-4">Critical Thinking</h3><p class="text-xs text-gray-400 mt-2">Berpikir kritis dan analitis</p></div>
+<div class="card bg-white p-6 rounded-2xl text-center"><i data-lucide="handshake" class="mx-auto text-pinkdark w-8 h-8"></i><h3 class="font-semibold text-sm mt-4">Teamwork</h3><p class="text-xs text-gray-400 mt-2">Kerja sama dan tanggung jawab</p></div>
+</div></div></section>
+
+<section class="py-24 px-6"><div class="max-w-5xl mx-auto"><div class="text-center mb-14"><p class="text-pinkdark text-sm tracking-widest uppercase">Beyond academics</p><h2 class="section-title text-4xl mt-3">More About Me</h2></div><div class="grid md:grid-cols-2 gap-8">
+<div class="bg-pinksoft/40 p-8 rounded-3xl"><i data-lucide="users" class="text-pinkdark w-8 h-8"></i><h3 class="font-serif text-2xl mt-5 mb-6">Organization</h3><div class="bg-white p-5 rounded-2xl"><h4 class="font-semibold">Muhammadiyah of Nursing Research (MORSE)</h4><p class="text-sm text-pinkdark mt-2">Staff Dana Usaha</p><p class="text-xs text-gray-400 mt-2">2023 – 2024</p></div></div>
+<div class="bg-yellowsoft/50 p-8 rounded-3xl"><i data-lucide="award" class="text-pinkdark w-8 h-8"></i><h3 class="font-serif text-2xl mt-5 mb-6">Certificates</h3><div class="space-y-3"><div class="bg-white p-5 rounded-2xl flex gap-3 items-center"><i data-lucide="badge-check" class="text-pinkdark"></i><p class="text-sm font-semibold">Sertifikat Kompetensi Profesi Ners</p></div><div class="bg-white p-5 rounded-2xl flex gap-3 items-center"><i data-lucide="badge-check" class="text-pinkdark"></i><p class="text-sm font-semibold">Sertifikat BTCLS</p></div></div></div>
+</div></div></section>
+
+<section id="contact" class="py-24 px-6 bg-pinksoft/40"><div class="max-w-4xl mx-auto text-center">
+<p class="text-pinkdark text-sm tracking-widest uppercase">Let's connect</p><h2 class="section-title text-4xl md:text-5xl mt-4">Let's Create Something <span class="text-pinkdark">Meaningful.</span></h2>
+<p class="text-gray-500 text-sm leading-7 mt-6 max-w-xl mx-auto">I believe every experience is an opportunity to learn, grow, and make a positive impact. Feel free to connect with me for professional opportunities and collaboration.</p>
+<div class="flex flex-wrap justify-center gap-4 mt-9"><a href="mailto:nafisalsabila88@gmail.com" class="bg-pinkdark text-white px-7 py-3 rounded-full hover:bg-dark transition flex items-center gap-2"><i data-lucide="mail" class="w-4 h-4"></i>Email Me</a><a href="https://instagram.com/nafi_salsaa" target="_blank" class="bg-white text-pinkdark px-7 py-3 rounded-full hover:bg-yellowsoft transition flex items-center gap-2"><i data-lucide="instagram" class="w-4 h-4"></i>Instagram</a></div>
+<div class="mt-14 border-t border-pinkdark/20 pt-7"><p class="font-serif text-xl font-bold">nafi<span class="text-pinkdark">.</span></p><p class="text-gray-400 text-xs mt-3">© 2026 Nafi Salsabila Putri. All Rights Reserved.</p><p class="text-pinkdark text-xs mt-2">Made with ♡ and passion.</p></div>
+</div></section>
+<script>
+lucide.createIcons();
+const menuBtn=document.getElementById('menuBtn'),mobileMenu=document.getElementById('mobileMenu');
+menuBtn.addEventListener('click',()=>mobileMenu.classList.toggle('hidden'));
+document.querySelectorAll('#mobileMenu a').forEach(link=>link.addEventListener('click',()=>mobileMenu.classList.add('hidden')));
+</script>
+</body></html>
